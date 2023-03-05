@@ -116,9 +116,103 @@
 .header-top-social ul li a span:hover {
     color: #DE2C2C;
 }
+/* header top area end */
+
+.header-main-area {}
+.header-main {
+    display: inline-block;
+    width: 100%;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-main-logo {
+    margin: 0 0 20px 0px;
+}
+
+.header-main-logo a {}
+.header-main-logo a img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+
+.header-main-menu {
+    display: inline-block;
+}
+
+.header-main-menu ul {
+    display: inline-block;
+}
+
+.header-main-menu ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 110px;
+    height: 110px;
+}
+
+.header-main-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+}
+
+.header-main-menu ul li a:hover {
+    color: #DE2C2C;
+}
+
+.header-main-menu ul li a span {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 5px 0px 0px;
+}
+
+.header-main-menu ul .dropdwon.current .svg-inline--fa.fa-angle-down.fa-w-10 {
+    display: inline-block;
+    color: #DE2C2C;
+}
+
+.current {
+    margin: 0px 15px 0px 0;
+}
+.current a span{
+    color: #DE2C2C;
+}
+.current a i {
+    display: inline-block;
+    color: #DE2C2C;
+}
+
+.dropdwon {
+    margin: 0 15px 0 15px;
+}
+.dropdwon a {
+    padding: 42px 0 42px 0;
+}
+
+.dropdwon a i {
+    
+}
+
+
+.header-right-content {}
+.header-right-content li {}
+.header-right-content li a {}
+.header-right-content li a i {}
+
+
+.btn-box {}
+.btn-box a{}
+
 
 .{}
 .{}
 .{}
 .{}
-/* header top area end */
