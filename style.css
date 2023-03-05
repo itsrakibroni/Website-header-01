@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.body {}
+
+/* header-top-area-start */
+.header-top-area {
+    
+}
+
+/* header-top-info */
+.header-top {
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+	background: #241E2F;
+	border-radius: 0 0 100px 100px;
+    color: #FFF;
+}
+
+.header-top-info {
+    display: inline-block;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.header-top-info ul {
+    display: inline-block;
+}
+
+.header-top-info ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin-right: 30px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 25px;
+}
+
+.header-top-info ul li i {
+    position: absolute;
+    color: #DE2C2C;
+    font-size: 24px;
+    left: 0;
+    top: 1px;
+    font-weight: 400;
+}
+
+.header-top-info ul li a,.header-top-info ul li span {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    left: 4px;
+    transition: 0.5s;
+}
+
+.header-top-info ul li a:hover {
+    color: #DE2C2C;
+}
+/* header-top-social */
+.header-top-social {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.header-top-social ul {
+    display: inline-block;
+}
+
+.header-top-social ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.header-top-social ul li a {
+    text-decoration: none;
+}
+
+.header-top-social ul li a span, .header-top-social ul li a i {
+    color: #fff;
+}
+
+.header-top-social ul li a i{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.header-top-social ul li a i:hover {
+    color: #DE2C2C;
+}
+
+.header-top-social ul li a span {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    padding-right: 28px;
+    margin-right: 30px;
+    line-height: 70px;
+    font-weight: 600;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+}
+
+.header-top-social ul li a span:hover {
+    color: #DE2C2C;
+}
+
+.{}
+.{}
+.{}
+.{}
+/* header top area end */
