@@ -174,19 +174,10 @@
     margin: 0 5px 0px 0px;
 }
 
-.header-main-menu ul .dropdwon.current .svg-inline--fa.fa-angle-down.fa-w-10 {
-    display: inline-block;
-    color: #DE2C2C;
-}
-
 .current {
     margin: 0px 15px 0px 0;
 }
-.current a span{
-    color: #DE2C2C;
-}
-.current a i {
-    display: inline-block;
+.current a span, .current .svg-inline--fa.fa-angle-down.fa-w-10{
     color: #DE2C2C;
 }
 
@@ -212,7 +203,3 @@
 .btn-box a{}
 
 
-.{}
-.{}
-.{}
-.{}
