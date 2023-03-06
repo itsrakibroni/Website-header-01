@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .body {}
 
 /* header-top-area-start */
@@ -101,7 +102,7 @@
     color: #DE2C2C;
 }
 
-.header-top-social ul li a span {
+.top-login {
     display: inline-block;
     position: relative;
     font-size: 18px;
@@ -113,7 +114,18 @@
     transition: 0.5s;
 }
 
-.header-top-social ul li a span:hover {
+
+.header-top-social ul li span {
+    display: inline-block;
+}
+
+.header-top-social ul li span a {
+    /* position: relative; */
+    color: #fff;
+    transition: 0.5s;
+}
+
+.header-top-social ul li span a:hover {
     color: #DE2C2C;
 }
 /* header top area end */
@@ -171,7 +183,7 @@
 .header-main-menu ul li a span {
     font-size: 20px;
     font-weight: 400;
-    margin: 0 5px 0px 0px;
+    padding: 0 5px 0px 0px;
 }
 
 .current {
@@ -202,8 +214,13 @@
     list-style: none;
 }
 .search-icon {
-    display: inline-block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    right: 13px;
 }
+
 .search-icon a {
     display: inline-block;
     text-decoration: none;
@@ -216,9 +233,11 @@
 .search-icon a:hover {
     color: #DE2C2C;
 }
+
 .header-right-content li a i {
-    
-}
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 
@@ -229,10 +248,16 @@
 .btn-box a {
     display: inline-block;
     text-decoration: none;
+    font-weight: 600;
     color: #333;
     background: rgb(255, 255, 255);
     padding: 12px 38px;
     border-radius: 25px;
     border: 1px rgba(51, 51, 51, 0.373) solid;
+    transition: 0.5s;
 }
 
+.btn-box a:hover {
+    background: red;
+    color: #fff;
+}
